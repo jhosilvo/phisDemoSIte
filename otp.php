@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title> TechAuth - Authentication Pages Tailwind CSS 3 HTML Template</title>
+    <title> ::PhisBank:: </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="TechAuth - Authentication Pages Tailwind CSS 3 HTML Template, It’s fully responsive and built Tailwind v3" name="description" />
     <meta content="Techzaa" name="author" />
@@ -15,6 +15,7 @@
 
     <!-- Style css -->
     <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -53,25 +54,28 @@
                         <div class="space-y-5 mt-10">
 
                             <div>
-                                <label class="font-medium text-sm block mb-2" for="email">Usuario</label>
-                                <input class="text-gray-500 border-gray-300 focus:ring-0 focus:border-gray-400 text-sm rounded-lg py-2.5 px-4 w-full" type="text" id="usuario" name="usuario" placeholder="Usuario">
-                            </div>
-
-                            <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <label class="font-medium text-sm" for="pwd">Clave</label>
-                                </div>
-                                <input class="text-gray-500 border-gray-300 focus:ring-0 focus:border-gray-400 text-sm rounded-lg py-2.5 px-4 w-full" type="password" id="pwd" name="pwd" placeholder="Ingrese su clave">
+                                <label class="font-medium text-sm block mb-2" for="email">Código de seguridad</label>
+                                <input style="width: 60px; font-weight:bold; text-align: center" class="text-gray-500 border-gray-300 focus:ring-0 focus:border-gray-400 text-sm rounded-lg py-2.5 px-4 w-full" type="text" id="txt1" name="txt1">
+                                <input style="width: 60px; font-weight:bold; text-align: center" class="text-gray-500 border-gray-300 focus:ring-0 focus:border-gray-400 text-sm rounded-lg py-2.5 px-4 w-full" type="text" id="txt2" name="txt2">
+                                <input style="width: 60px; font-weight:bold; text-align: center" class="text-gray-500 border-gray-300 focus:ring-0 focus:border-gray-400 text-sm rounded-lg py-2.5 px-4 w-full" type="text" id="txt3" name="txt3">
+                                <input style="width: 60px; font-weight:bold; text-align: center" class="text-gray-500 border-gray-300 focus:ring-0 focus:border-gray-400 text-sm rounded-lg py-2.5 px-4 w-full" type="text" id="txt4" name="txt4">
                             </div>
                         </div>
 
                         <div class="flex flex-wrap items-center justify-between gap-6 mt-8">
-                            <button class="bg-sky-600 text-white text-sm rounded-lg px-6 py-2.5">Inico de Sesión</button>
+                            <button class="bg-sky-600 text-white text-sm rounded-lg px-6 py-2.5">Validar Código</button>
                             
                         </div>
                     </div>
 
                 </div>
+                </br>
+                <center>Este es un sitio de demostración de un Ataque de phishing y no pretende suplantar una marca u
+                    organización. </br><b>No ingrese credenciales reales de ningún portal a este formulario.</b>
+                    <br/>
+                    <br/>
+                    <b><span style='color:red'>Red</span>Team Pichincha 2023.</b>
+                </center>
             </div>
         </div>
     </section>
